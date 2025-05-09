@@ -1,5 +1,5 @@
 # ALPACA: Anonymous Blocklisting with Constant-Sized Updatable Proofs
-ALPACA is an anonymous blocklisting scheme that achieves constant online prover time, proof size, and verifier time. This is the Rust implementation of this paper, which will appear at IEEE S&P 2025. The paper provides the details of the ALPACA design and formal proofs of security.
+ALPACA is an anonymous blocklisting scheme that achieves constant online prover time, proof size, and verifier time. This is the Rust implementation of this paper, which will appear at IEEE S&P 2025. [The paper](https://eprint.iacr.org/2025/767) provides the details of the ALPACA design and formal proofs of security.
 
 ## Running the code
 To run the code, you need to clone two repositories: this repository and [circ-alpaca](https://github.com/jiwonkimpark/circ-alpaca) under this repository (`circ-alpaca` is the fork of [circ compiler](https://github.com/circify/circ) that further implements proving and verifying functionalities necessary for ALPACA). The file tree should look like:
